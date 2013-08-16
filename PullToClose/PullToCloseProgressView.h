@@ -1,5 +1,5 @@
 //
-//  DetailViewController.h
+//  PullToCloseProgressView.h
 //  PullToClose
 //
 //  Created by Jorge Bernal on 8/16/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
-
+@interface PullToCloseProgressView : UIView
+@property (nonatomic, assign) CGFloat progress;
 @end

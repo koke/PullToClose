@@ -22,6 +22,7 @@
 		E1F2A23D17BE68E100FF91C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F2A21C17BE68E000FF91C7 /* UIKit.framework */; };
 		E1F2A24517BE68E100FF91C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1F2A24317BE68E100FF91C7 /* InfoPlist.strings */; };
 		E1F2A24717BE68E100FF91C7 /* PullToCloseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F2A24617BE68E100FF91C7 /* PullToCloseTests.m */; };
+		E1F2A25217BE81C400FF91C7 /* PullToCloseProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F2A25117BE81C400FF91C7 /* PullToCloseProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		E1F2A24217BE68E100FF91C7 /* PullToCloseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PullToCloseTests-Info.plist"; sourceTree = "<group>"; };
 		E1F2A24417BE68E100FF91C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1F2A24617BE68E100FF91C7 /* PullToCloseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullToCloseTests.m; sourceTree = "<group>"; };
+		E1F2A25017BE81C400FF91C7 /* PullToCloseProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullToCloseProgressView.h; sourceTree = "<group>"; };
+		E1F2A25117BE81C400FF91C7 /* PullToCloseProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullToCloseProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				E1F2A23117BE68E000FF91C7 /* DetailViewController.m */,
 				E1F2A23317BE68E000FF91C7 /* Images.xcassets */,
 				E1F2A21F17BE68E000FF91C7 /* Supporting Files */,
+				E1F2A25017BE81C400FF91C7 /* PullToCloseProgressView.h */,
+				E1F2A25117BE81C400FF91C7 /* PullToCloseProgressView.m */,
 			);
 			path = PullToClose;
 			sourceTree = "<group>";
@@ -204,6 +209,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Jorge Bernal";
 				TargetAttributes = {
+					E1F2A21417BE68E000FF91C7 = {
+						DevelopmentTeam = PZYM8XX95Q;
+					};
 					E1F2A23817BE68E100FF91C7 = {
 						TestTargetID = E1F2A21417BE68E000FF91C7;
 					};
@@ -254,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F2A25217BE81C400FF91C7 /* PullToCloseProgressView.m in Sources */,
 				E1F2A22917BE68E000FF91C7 /* AppDelegate.m in Sources */,
 				E1F2A22F17BE68E000FF91C7 /* MasterViewController.m in Sources */,
 				E1F2A22517BE68E000FF91C7 /* main.m in Sources */,
@@ -380,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PullToClose/PullToClose-Prefix.pch";
 				INFOPLIST_FILE = "PullToClose/PullToClose-Info.plist";
@@ -393,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PullToClose/PullToClose-Prefix.pch";
 				INFOPLIST_FILE = "PullToClose/PullToClose-Info.plist";
